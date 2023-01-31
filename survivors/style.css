@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./29910-Hong_Kong-cityscape-skyscraper-city-sunset-748x421.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+height: 100vh;
+border-top: 2px solid red;
+}
+
+h1 {
+    color: #fff;
+    font-size: 40px;
+}
+span {
+    color: orange;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+
+}
+ul li {
+display: inline-block;
+}
+
+ul li a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input {
+float: right;
+transform: translate(150%);
+border: 1px solid orange;
+color: #fff;
+padding: 3px 10px;
+position: absolute
+;
+top: 1.5px;
+right: 550px;
+}
+
+.nav-text {
+    border: 0;
+    background: transparent;
+    outline: 0;
+}
+
+.nav-text::placeholder {
+    color: #fff;
+}
+
+.btn{
+    border: 0;
+    background-color: #ffa501;
+    padding: 10px 40px;
+    color: #fff;
+    transform: scale(120%);
+  
+}
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content {
+    margin-top: 100px;
+}
+.content h1  {
+font-size: 40px;
+    text-transform: capitalize;
+    line-height: 55px;
+}
+.content p {
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-family: 'poppins', sans-serif;
+}
+form {
+    margin-right: 50px;
+    background-color: rgba(0, 0, 0, 0.598);
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+form  p {
+    color: #fff;
+    font-weight: 600;
+}
+form input {
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    border-bottom: 1px solid orange;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 250px;
+}
+form input::placeholder {
+    color: #fff;
+    font-family:cursive;
+}
+form h1 {
+    font-size: 20px;
+    background-color: #fff;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+form button {
+    border: 0;
+cursor: pointer;
+padding: 10px 50px;
+background-color: #ffa505;
+font-weight: 600;
+text-align: center; 
+border-radius: 8px;   
+}
+a {
+    text-decoration: none;
+color: #ffa501;
+text-align: center;
+
+}
+
+h3 {
+    color: #fff;
+}
