@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+
+.container {
+    background-image: url(./Images/M3-Homepage-Desktop-LHD.jpg);
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px ;
+    align-items: center;
+
+
+}
+.topnav img {
+    width: 20%;
+}
+ul {
+    margin-top: 40px;
+}
+ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.middle-link {
+    margin-right: 30px;
+}
+
+.content {
+    display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ font-size: 30px;
+ position: relative;
+bottom: 63px;
+}
+.content h3 {
+    font-size: 40px
+}
+
+.links {
+    margin-top: 190px;
+}
+
+.order {
+    text-decoration: none;
+    font-size: 15px;
+    background: #333;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.demo {
+    text-decoration: none;
+    font-size: 15px;
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.row-2 {
+    background:url(./Images/Desktop-ModelY.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.row-3 {
+    background: url(./Images/_25-HP-SolarPanels-D.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.row-3 .texts {
+    position: relative;
+    bottom: 15px;
+}
+
+@media screen and (max-width:  720px) {
+    .content {
+        margin-top: 70px;
+    }
+    .container {
+        background-attachment: scroll;        
+       
+    }
+    .row-2 {
+        background-attachment: scroll;
+        background-position: 10% 10%;
+    }
+    .order {
+        padding: 10px 9px;
+    }
+    .demo {
+        padding: 10px 10px;
+    }
+}
